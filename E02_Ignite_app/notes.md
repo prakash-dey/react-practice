@@ -1,0 +1,27 @@
+## what is transitive module?
+Ans : suppose we have downloaded parcel as dependecies but when we go inside the node mudules we will see a lot of files other then parcel . That is because parcel as a module has dependecies over other node moudules and those modules can have dependecies over other modules. this is called transitive module.
+
+## What is npx ?
+Ans : whenever we need to expecute any package we write npx package_name .
+eg npx parcel index.html
+
+## What is the difference btn npm and npx ?
+Ans :   
+
+
+
+# when we execute index.js file using parcel, it build a development build of our app and hosts it on local server
+
+# it is always prefered not to add CDN link for react and add react as dependencies in package.json file for mainly 2 reasons
+1. CDN link will make api call to fetch react files which is costly and slow
+2. if suppose any update comes in react version we have to manually update the CDN links for the update , same is easy to track when used with tilda or arrow in package.json
+
+# when we use simple srcipt tag to connect the js file , browser treats it as a broweser js file and it will throw error when we user import keyword in it. so we have to use an attribute inside of our script tag , which is called as "type" and use value as "module" to specify it to browser that it is a module and not normal js file.
+
+# Parcel
+- Dev builds
+- Server creation
+- HMR - Hot Module Replacement(auto refresh)
+
+
+ 
