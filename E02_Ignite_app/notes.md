@@ -22,6 +22,17 @@ Ans :
 - Dev builds
 - Server creation
 - HMR - Hot Module Replacement(auto refresh)
+- File watching algorithm - C++
+- Caching - Faster build
+- Image optimization
+- Minify file
+- Bundle
+- Compressing
+- Consistent hashing
+- Code spliting
+- Differential bundling - support old browser
+- Good error suggestion
+
 
 
  
